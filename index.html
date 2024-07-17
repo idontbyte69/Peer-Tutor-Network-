@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peer Tutoring Network</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body style="background-color: #08003F;">
+    <nav class="border-bottom border-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <a href="index.html"><img src="./Assets/Logo.png" style="width: 150px;" alt=""></a>
+                </div>
+                <div class="col-7 d-flex p-5 mt-auto text-center" style="font-size: 20px;">
+                    <div class="col-2">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="about.html">About</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="service.html">Services</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="blog.html">Blog</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="signin.html">Sign in</a>
+                    </div>
+                    <div class="col-2">
+                        
+                        <button type="button" class="btn btn-outline-light rounded-3" style="font-size: large;" ><a href="signup.html">Join</a></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container hero">
+        <div class="row">
+            <div class="col-8 m-auto text-white">
+                <p class="hero-title">Find the right <i>tutor</i></p>
+                <p class="hero-title">service, right away</p>
+                <div class="input-group">
+                    <div class="form-outline" data-mdb-input-init>
+                      <input id="search-input" type="search" id="form1" class="form-control" />
+                    </div>
+                    <button id="search-button" type="button" class="btn btn-primary">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                  <br>
+                  <div class="d-flex">
+                    <p class="pt-2" style="font-size: 20px"> Popular: </p>
+                  <button type="button" class="btn btn-outline-light rounded-4 ms-3" style="font-size: small;">HTML</button>
+                  <button type="button" class="btn btn-outline-light rounded-4 ms-3" style="font-size: small;">CSS</button>
+                  <button type="button" class="btn btn-outline-light rounded-4 ms-3" style="font-size: small;">JavaScript</button>
+                  </div>
+            </div>
+            <div class="col-4 m-auto">
+                <img src="./Assets/Logo.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">HTML</h3>
+                        <p class="card-text">Learn HTML</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">CSS</h3>
+                        <p class="card-text">Learn CSS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">JavaScript</h3>
+                        <p class="card-text">Learn JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-white">
+        <div class="container ">
+            <div class="row">
+                <div class="col-4">
+                    <img src="./Assets/Logo1.png" width="400px" alt="">
+                </div>
+                <div class="col-8 m-auto text-center">
+                    <h1>The best part? Everything :) </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <br><br>
+    <br>
+    <div class="container py-5 bg-white rounded-5" style="width: 90%;">
+        <h2 class="text-center mb-5">Topics Covered</h2>
+        <hr class="border-3 mb-5">
+        <div id="topicsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="./Assets/HTML.png" class="d-block mx-auto" alt="HTML">
+                        </div>
+                        <div class="col-md-9">
+                            <h3>HTML</h3>
+                            <p>HyperText Markup Language, the standard markup language for creating web pages.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- CSS Slide -->
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="./Assets/CSS.png" class="d-block mx-auto" alt="CSS">
+                        </div>
+                        <div class="col-md-9">
+                            <h3>CSS</h3>
+                            <p>Cascading Style Sheets, used for describing the presentation of a document written in HTML.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="./Assets/javascript.png" class="d-block mx-auto" alt="JavaScript">
+                        </div>
+                        <div class="col-md-9">
+                            <h3>JavaScript</h3>
+                            <p>Programming language that enables you to create dynamically updating content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Discrete Mathematics Slide -->
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="./Assets/Discrete-Mathematics.jpeg" class="d-block mx-auto" width="150px" alt="Discrete Mathematics">
+                        </div>
+                        <div class="col-md-9">
+                            <h3>Discrete Mathematics</h3>
+                            <p>Study of mathematical structures that are fundamentally discrete rather than continuous.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="./Assets/Data-Structures.jpeg" class="d-block mx-auto" alt="Data Structures">
+                        </div>
+                        <div class="col-md-9">
+                            <h3>Data Structures</h3>
+                            <p>Organized ways to store and manage data efficiently.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="./Assets/algorithm.png" class="d-block mx-auto" alt="Algorithms">
+                        </div>
+                        <div class="col-md-9">
+                            <h3>Algorithms</h3>
+                            <p>Step-by-step procedures or formulas for solving problems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a class="carousel-control-prev" href="#topicsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#topicsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+<br><br><br><br><br>
+
+
+
+
+
+<div class="container-fluid py-5 bg-white mb-5">
+
+    <h2 class="text-center">Featured Tutors</h2>
+    <hr>
+    <div class="row">
+        <!-- Tutor 1 -->
+        <div class="col-md-4">
+            <div class="card tutor-card">
+                <img src="./Assets/teacher1.png!sw800" class="card-img-top" alt="Tutor 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tutor 1</h5>
+                    <p class="card-text">Math Expert with 5 years of experience. Specializes in Algebra, Calculus, and Geometry.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Tutor 2 -->
+        <div class="col-md-4">
+            <div class="card tutor-card">
+                <img src="./Assets/teacher2.avif" class="card-img-top" alt="Tutor 2">
+                <div class="card-body">
+                    <h5 class="card-title">Tutor 2</h5>
+                    <p class="card-text">Computer Science Tutor. </p>
+                </div>
+            </div>
+        </div>
+        <!-- Tutor 3 -->
+        <div class="col-md-4">
+            <div class="card tutor-card">
+                <img src="./Assets/teacher3.jpeg" class="card-img-top" alt="Tutor 3">
+                <div class="card-body">
+                    <h5 class="card-title">Tutor 3</h5>
+                    <p class="card-text">Physics Tutor with a focus on Mechanics and Electromagnetism. 3 years of tutoring experience.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more tutors as needed -->
+    </div>
+</div>
+
+
+
+
+<div class="container-fluid py-5 bg-white mt-5">
+    <!-- Testimonials -->
+    <h2 class="text-center">Testimonials</h2>
+    <hr>
+    <div class="row">
+        
+        <div class="col-md-4 testimonial">
+            <img src="./Assets/std2.avif" alt="Student 1">
+            <blockquote class="blockquote">
+                <p class="mb-0">"This platform has significantly improved my understanding of complex subjects. The tutors are fantastic!"</p>
+                <div class="blockquote-footer">Tutee 1</div>
+            </blockquote>
+        </div>
+      
+        <div class="col-md-4 testimonial">
+            <img src="./Assets/Std1.avif" alt="Student 2">
+            <blockquote class="blockquote">
+                <p class="mb-0">"I found the perfect tutor for my needs. My grades have improved dramatically."</p>
+                <footer class="blockquote-footer">Tutee 2</footer>
+            </blockquote>
+        </div>
+        
+        <div class="col-md-4 testimonial">
+            <img src="./Assets/std3.avif" alt="Student 3">
+            <blockquote class="blockquote">
+                <p class="mb-0">"The peer tutoring network is an invaluable resource. Highly recommend it!"</p>
+                <footer class="blockquote-footer">Tutee 3</footer>
+            </blockquote>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <hr class="border container">
+    <footer class="text-white pt-4">
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <p>Email: support@peertutoringnetwork.com</p>
+                    <p>Phone: +88 01569-104401</p>
+                    <p>Address: Dhaka, Bangladesh</p>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/home" class="text-white">Home</a></li>
+                        <li><a href="/about" class="text-white">About Us</a></li>
+                        <li><a href="/services" class="text-white">Services</a></li>
+                        <li><a href="/faqs" class="text-white">FAQs</a></li>
+                        <li><a href="/blog" class="text-white">Blog</a></li>
+                        <li><a href="/contact" class="text-white">Contact Us</a></li>
+                        <li><a href="/signup" class="text-white">Sign Up</a></li>
+                        <li><a href="/login" class="text-white">Login</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <a href="https://facebook.com" class="text-white">Facebook</a><br>
+                    <a href="https://twitter.com" class="text-white">Twitter</a><br>
+                    <a href="https://linkedin.com" class="text-white">LinkedIn</a><br>
+                    <a href="https://instagram.com" class="text-white">Instagram</a>
+                </div>
+               
+                <div class="col-md-3">
+                    <h5>Subscribe to Our Newsletter</h5>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <div class="row">
+               
+                <div class="col-md-6 text-right">
+                    <img src="./Assets/Logo.png" alt="Peer Tutoring Network Logo" class="img-fluid" style="max-height: 150px;">
+                </div>
+                <div class="col-md-6">
+                    <p><a href="/privacy" class="text-white">Privacy Policy</a> | <a href="/terms" class="text-white">Terms of Service</a></p>
+                    <p>&copy; 2024 Peer Tutoring Network. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+
+
+
+
+
+
+    <script src="/JS/script.js"></script>
+</body>
+</html>
